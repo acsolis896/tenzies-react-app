@@ -1,7 +1,9 @@
 
 import React from 'react';
-import './App.css';
+import './style.css';
 import Die from "./Die"
+import {nanoid} from "nanoid"
+import Confetti from "react-confetti"
 
 function App() {
   const [dice, setDice] = React.useState(allNewDice())
